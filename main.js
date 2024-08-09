@@ -10,12 +10,9 @@ function generateBotResponse(userInput) {
           botResponse = "Hello! How can I assist you today?";
       } else if (userInput.toLowerCase().includes("how are you")) {
           botResponse = "I'm just a bot, but I'm here to help!";
-      } else if (userInput.toLowerCase().includes("your name")) {
+      } else if (userInput.toLowerCase().includes("your name") || 
+                 userInput.toLowerCase() === "what is your name") {
           botResponse = "I'm your friendly chatbot!";
-      } else if (userInput === "what is your name" || userInput === "What is your name") {
-          botResponse = "I'm your friendly chatbot!";
-      } else if (userInput.includes("hello" || "your name")) {
-          botResponse = "Hello! I'm your friendly chatbot!";
       } else if (userInput.toLowerCase().includes("bye")) {
           botResponse = "Goodbye! Have a great day!";
       } else if (userInput.toLowerCase().includes("issue")) {
