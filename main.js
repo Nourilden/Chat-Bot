@@ -53,7 +53,7 @@ function generateBotResponse(userInput) {
       } else if (userInput.toLowerCase().includes("how are you")) {
           botResponse = "I'm just a bot, but I'm here to help!";
       } else if (userInput.toLowerCase().includes("your name")) {
-          botResponse = "I'm your friendly chatbot!";}
+          botResponse = "";}
           else if (userInput === "what is your name" , "What is your name") {
             botResponse = "I'm your friendly chatbot!";}
             else if (userInput.includes("hello" , "your name")) {
